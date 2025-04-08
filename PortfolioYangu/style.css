@@ -1,0 +1,187 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.7;
+    background-color: #e0f7fa; /* Fallback background color */
+    color: #37474f;
+    padding: 20px;
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Optional: Fixed background on scroll */
+}
+
+header {
+    background-color: rgba(0, 188, 212, 0.9); /* Cyan header with slight transparency */
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin-bottom: 0.3em;
+    font-size: 2.5em;
+    letter-spacing: 0.5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #b2ebf2;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85); /* Add a slightly transparent white background to the main content for better readability */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: transparent; /* Make section backgrounds transparent */
+    padding: 30px 0; /* Adjust padding since main has background */
+    margin-bottom: 30px;
+    border-bottom: 2px solid #80deea; /* Add a subtle bottom border for separation */
+    transition: transform 0.3s ease-in-out;
+}
+
+section:last-child {
+    border-bottom: none; /* Remove border from the last section */
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+main h2 {
+    color: #00838f;
+    padding-bottom: 0.7em;
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    border-bottom: 3px solid #80deea;
+}
+
+.solution {
+    margin-bottom: 2em;
+    padding: 20px;
+    border: 1px solid #80deea;
+    border-radius: 8px;
+    background-color: rgba(224, 242, 247, 0.7); /* Slightly transparent light cyan for solutions */
+}
+
+.solution h3 {
+    color: #00bcd4;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    font-size: 1.6em;
+}
+
+#contact {
+    text-align: center;
+    background-color: transparent; /* Make contact background transparent */
+    padding: 30px 0;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+#contact li {
+    margin-bottom: 0.8em;
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #00838f;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #00bcd4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contact-buttons {
+    margin-top: 2em;
+}
+
+.contact-button {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: 0 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:hover {
+    background-color: #00838f;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#profile {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for profile */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #00bcd4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+    color: #00838f;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    border-top: 2px solid #80deea;
+    color: #78909c;
+    font-size: 0.9em;
+    margin-top: 40px;
+    background-color: rgba(0, 188, 212, 0.1); /* Very slight cyan tint for footer */
+    border-radius: 0 0 12px 12px; /* Match main content border */
+}
